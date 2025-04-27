@@ -6,7 +6,7 @@ if (process.env.NODE_ENV == "production") {
   dbConfig = {
     HOST: process.env.DB_HOST,
     USER: process.env.DD_USER,
-    PASSWORD: proccess.env.DB_PASSWORD,
+    PASSWORD: process.env.DB_PASSWORD,
     DB: process.env.DB_NAME,
     PORT: process.env.DB_PORT,
   };
